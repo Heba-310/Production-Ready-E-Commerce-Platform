@@ -1,0 +1,46 @@
+.burger-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.burger-loader > div {
+  animation: burger-bounce 1s ease-in-out infinite;
+}
+.bun-top {
+  width: 90px; height: 40px;
+  background: #fe9e0d;
+  border-radius: 45px 45px 8px 8px;
+}
+.lettuce {
+  width: 98px; height: 10px;
+  background: #5cb85c;
+  border-radius: 10px;
+  animation-delay: .1s !important;
+}
+.patty {
+  width: 92px; height: 16px;
+  background: red;
+  border-radius: 8px;
+  animation-delay: .2s !important;
+}
+.bun-bottom {
+  width: 90px; height: 16px;
+  background: #fe9e0d;
+  border-radius: 6px 6px 24px 24px;
+  animation-delay: .3s !important;
+}
+
+.food-loading-text { font-weight: 600; color: #fe9e0d;}
+.food-loading-text span { animation: dot-blink 1.4s infinite both; }
+.food-loading-text span:nth-child(2) { animation-delay: .2s; }
+.food-loading-text span:nth-child(3) { animation-delay: .4s; }
+
+@keyframes burger-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+@keyframes dot-blink {
+  0%, 80%, 100% { opacity: 0; }
+  40% { opacity: 1; }
+}

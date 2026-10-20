@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Chicken Salad Bowl",
+      "price":40,
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "category": "Salads"
+    },
+    {
+      "id": 2,
+      "name": "Cheese Burger",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "category": "Burgers"
+    },
+    {
+      "id": 3,
+      "name": "Pepperoni Pizza",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      "category": "Pizza"
+    },
+    {
+      "id": 4,
+      "name": "French Fries",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+      "category": "Sides"
+    },
+    {
+      "id": 5,
+      "name": "Grilled Steak",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947",
+      "category": "Main Course"
+    },
+    {
+      "id": 6,
+      "name": "Pasta Alfredo",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+      "category": "Pasta"
+    },
+    {
+      "id": 7,
+      "name": "Chicken Sandwich",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980",
+      "category": "Sandwiches"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Cake",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+      "category": "Desserts"
+    }
+  ]
+}
